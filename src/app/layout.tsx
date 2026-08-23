@@ -6,6 +6,7 @@ import Nav from "@/components/layout/Nav";
 import ScrollProgress from "@/components/layout/ScrollProgress";
 import PageLoader from "@/components/layout/PageLoader";
 import Footer from "@/components/layout/Footer";
+import VideoPreloader from "@/components/layout/VideoPreloader";
 
 export const metadata: Metadata = {
   title: "Amlan Tripathy — Video Editor for Creators & Brands",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="flex min-h-full flex-col bg-paper text-ink">
         <PageLoader />
+        <VideoPreloader />
         <ScrollProgress />
         <CustomCursor />
         <SmoothScrollProvider>
