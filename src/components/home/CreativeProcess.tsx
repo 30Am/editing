@@ -56,7 +56,7 @@ export default function CreativeProcess() {
       ref={sectionRef}
       className="relative overflow-hidden border-t border-line bg-paper py-24 md:py-0"
     >
-      <div className="container-edit md:hidden">
+      <div className="container-edit mb-8 md:hidden">
         <span className="eyebrow text-ink-soft">04 — Inside the Edit</span>
         <h2 className="type-h2 mt-4 max-w-xl">
           Seven steps between your footage and a finished video.
