@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import type { Project } from "@/data/content";
 
@@ -24,6 +24,23 @@ export default function ProjectCard({
   const my = useMotionValue(0.5);
   const rx = useSpring(useTransform(my, [0, 1], [8, -8]), { stiffness: 200, damping: 20 });
   const ry = useSpring(useTransform(mx, [0, 1], [-8, 8]), { stiffness: 200, damping: 20 });
+
+  const [inView, setInView] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setInView(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   const onMove = (e: React.PointerEvent<HTMLDivElement>) => {
     const rect = ref.current?.getBoundingClientRect();
@@ -52,7 +69,7 @@ export default function ProjectCard({
         transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
         className="group relative aspect-[9/16] overflow-hidden rounded-2xl border border-line bg-paper-dim"
       >
-        {project.video ? (
+        {project.video && inView ? (
           <video
             src={project.video}
             className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"

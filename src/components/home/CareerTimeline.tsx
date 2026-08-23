@@ -1,6 +1,6 @@
 "use client";
 
-import { useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { cn } from "@/lib/utils";
@@ -10,6 +10,24 @@ const TICKS = Array.from({ length: 60 }, (_, i) => i);
 
 function MilestoneReel({ src }: { src?: string }) {
   const [broken, setBroken] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setInView(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "300px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   if (!src || broken) {
     return (
@@ -18,17 +36,22 @@ function MilestoneReel({ src }: { src?: string }) {
   }
 
   return (
-    <div className="aspect-[9/16] h-56 overflow-hidden rounded-xl border border-paper/15 bg-paper/5 sm:h-64 lg:h-72">
-      <video
-        src={src}
-        className="h-full w-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="metadata"
-        onError={() => setBroken(true)}
-      />
+    <div
+      ref={ref}
+      className="aspect-[9/16] h-56 overflow-hidden rounded-xl border border-paper/15 bg-paper/5 sm:h-64 lg:h-72"
+    >
+      {inView && (
+        <video
+          src={src}
+          className="h-full w-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          onError={() => setBroken(true)}
+        />
+      )}
     </div>
   );
 }
