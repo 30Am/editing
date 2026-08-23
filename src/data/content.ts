@@ -18,21 +18,21 @@ export const milestones: Milestone[] = [
     title: "Sneha Satheendran",
     description: "Video editing partnership — full project details to be added.",
     placeholder: true,
-    video: "/videobb2/milestone-01.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Who_I've_Edited_For/milestone-01.mp4",
   },
   {
     year: "—",
     title: "Aakriti Bansal",
     description: "Video editing partnership — full project details to be added.",
     placeholder: true,
-    video: "/videobb2/milestone-02.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Who_I've_Edited_For/milestone-02.mp4",
   },
   {
     year: "—",
     title: "Practo",
     description: "Video editing partnership — full project details to be added.",
     placeholder: true,
-    video: "/videobb2/milestone-03.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Who_I've_Edited_For/milestone-03.mp4",
   },
 ];
 
@@ -58,42 +58,42 @@ export const projects: Project[] = [
   {
     slug: "case-study-one",
     title: "Case Study One",
-    client: "Client name pending",
+    client: "Snitch",
     category: "Snitch",
     challenge: "One-sentence business problem — to be added.",
     approach: "How storytelling, strategy, and filmmaking solved it — to be added.",
     outcome: "Real, verifiable outcome — to be added.",
-    video: "/videos/featured/case-study-one.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Case_Studies/case-study-one.mp4",
   },
   {
     slug: "case-study-two",
     title: "Case Study Two",
-    client: "Client name pending",
+    client: "Call Her Daddy",
     category: "Call Her Daddy",
     challenge: "One-sentence business problem — to be added.",
     approach: "How storytelling, strategy, and filmmaking solved it — to be added.",
     outcome: "Real, verifiable outcome — to be added.",
-    video: "/videos/featured/case-study-two.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Case_Studies/case-study-two.mp4",
   },
   {
     slug: "case-study-three",
     title: "Case Study Three",
-    client: "Client name pending",
+    client: "Sanidhya AI",
     category: "Sanidhya AI",
     challenge: "One-sentence business problem — to be added.",
     approach: "How storytelling, strategy, and filmmaking solved it — to be added.",
     outcome: "Real, verifiable outcome — to be added.",
-    video: "/videos/featured/case-study-three.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Case_Studies/case-study-three.mp4",
   },
   {
     slug: "case-study-four",
     title: "Case Study Four",
-    client: "Client name pending",
+    client: "Sindhu Biswal",
     category: "Sindhu Biswal",
     challenge: "One-sentence business problem — to be added.",
     approach: "How storytelling, strategy, and filmmaking solved it — to be added.",
     outcome: "Real, verifiable outcome — to be added.",
-    video: "/videos/featured/case-study-four.mp4",
+    video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Case_Studies/case-study-four.mp4",
   },
 ];
 
@@ -236,11 +236,11 @@ export const philosophyLines = [
 ];
 
 export const contactDetails = {
-  email: "hello@example.com", // TODO: replace with Amlan's real contact email
+  email: "amlantripathy124@gmail.com",
   bookingLabel: "Book a conversation",
-  bookingUrl: "#", // TODO: replace with real Calendly/booking link
+  bookingUrl: "https://topmate.io/amlan_tripathy10?fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeYs875R-u-7eWwZJcOuoBcNP57-8p_0GLuJTm8FUwUNC6fU2sYRs6QoM_Qnw_aem_ZMxiVT3gs2QI6Y-5I41usQ&utm_content=link_in_bio&utm_medium=social&utm_source=ig",
   socials: [
-    { label: "LinkedIn", url: "#" }, // TODO
-    { label: "Instagram", url: "#" }, // TODO
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/amlan-tripathy-883738272/" },
+    { label: "Instagram", url: "https://www.instagram.com/amlanttripathy/" },
   ],
 };

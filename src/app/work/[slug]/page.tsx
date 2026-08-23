@@ -85,23 +85,39 @@ export default async function CaseStudyPage({
         </div>
       </section>
 
-      <section className="aspect-video w-full bg-gradient-to-br from-indigo/15 via-paper-dim to-paper-dim" />
+      <section className="relative aspect-video w-full overflow-hidden bg-paper-dim">
+        {project.video ? (
+          <video
+            src={project.video}
+            className="h-full w-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+          />
+        ) : (
+          <div className="h-full w-full bg-gradient-to-br from-indigo/15 via-paper-dim to-paper-dim" />
+        )}
+      </section>
 
       <section className="container-edit py-20 md:py-28">
-        <div className="grid gap-16 md:grid-cols-[repeat(auto-fit,minmax(0,1fr))]">
+        <div className="flex flex-col gap-12 md:gap-16">
           {SECTIONS.map((s) => {
             const value = project[s.key];
             return (
-              <div key={s.key} className="border-t border-line pt-6">
-                <div className="flex items-baseline gap-3">
-                  <span className="font-mono text-xs text-ink-soft">{s.n}</span>
-                  <h2 className="type-h2">{s.label}</h2>
+              <div key={s.key} className="border-t border-line pt-6 md:pt-12">
+                <div className="grid gap-4 md:grid-cols-[280px_1fr] lg:grid-cols-[360px_1fr] md:gap-12 lg:gap-16">
+                  <div>
+                    <span className="font-mono text-xs text-ink-soft">{s.n}</span>
+                    <h2 className="type-h2 mt-1.5 md:mt-2">{s.label}</h2>
+                  </div>
+                  <p className="body-lg text-ink-soft max-w-2xl self-start">
+                    {value && value.length > 0
+                      ? value
+                      : "This section will be filled in once the confirmed project details are supplied."}
+                  </p>
                 </div>
-                <p className="body-lg mt-4 max-w-2xl text-ink-soft">
-                  {value && value.length > 0
-                    ? value
-                    : "This section will be filled in once the confirmed project details are supplied."}
-                </p>
               </div>
             );
           })}

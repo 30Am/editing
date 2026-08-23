@@ -58,10 +58,16 @@ export default function Footer() {
 
           <nav className="flex flex-col gap-2">
             <a href={`mailto:${contactDetails.email}`} className="transition-colors hover:text-paper">
-              {contactDetails.email}
+              Email
             </a>
             {contactDetails.socials.map((s) => (
-              <a key={s.label} href={s.url} className="transition-colors hover:text-paper">
+              <a
+                key={s.label}
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-paper"
+              >
                 {s.label}
               </a>
             ))}

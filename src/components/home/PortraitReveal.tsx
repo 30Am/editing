@@ -86,7 +86,7 @@ export default function PortraitReveal() {
             ref={videoRef}
             className="absolute inset-0 h-full w-full object-cover"
             style={{ clipPath: "url(#reel-clip)" }}
-            src="/vidgrab-dowenload.mp4"
+            src="https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Meet_Your_Editor/vidgrab-dowenload.mp4"
             autoPlay
             muted
             loop

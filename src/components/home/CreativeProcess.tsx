@@ -12,13 +12,13 @@ type Step = {
 };
 
 const STEPS: Step[] = [
-  { n: "01", title: "Research", copy: "Every project starts as questions on paper — audience, objective, competitive terrain.", video: "/videobb/process-01-research.mp4" },
-  { n: "02", title: "Storyboarding", copy: "Structure before spectacle. The story is blocked out, frame by frame, before a single clip is touched.", video: "/videobb/process-02-storyboard.mp4" },
-  { n: "03", title: "Production", copy: "Cameras roll on what was planned — directing talent and capturing the footage the edit will need.", video: "/videobb/process-03-production.mp4" },
-  { n: "04", title: "Editing", copy: "Pacing, rhythm, and cut points — the timeline is where strategy becomes feeling.", video: "/videobb/process-04-edit.mp4" },
-  { n: "05", title: "Motion", copy: "Depth, movement, and layered composition give the story physical presence.", video: "/videobb/process-05-motion.mp4" },
-  { n: "06", title: "Publishing", copy: "Every platform reads attention differently. Format follows distribution, not the other way around.", video: "/videobb/process-06-publish.mp4" },
-  { n: "07", title: "Analytics", copy: "The work is measured, not just admired — what performed, why, and what it changes next time.", video: "/videobb/process-07-analytics.mp4" },
+  { n: "01", title: "Research", copy: "Every project starts as questions on paper — audience, objective, competitive terrain.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-01-research.mp4" },
+  { n: "02", title: "Storyboarding", copy: "Structure before spectacle. The story is blocked out, frame by frame, before a single clip is touched.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-02-storyboard.mp4" },
+  { n: "03", title: "Production", copy: "Cameras roll on what was planned — directing talent and capturing the footage the edit will need.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-03-production.mp4" },
+  { n: "04", title: "Editing", copy: "Pacing, rhythm, and cut points — the timeline is where strategy becomes feeling.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-04-edit.mp4" },
+  { n: "05", title: "Motion", copy: "Depth, movement, and layered composition give the story physical presence.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-05-motion.mp4" },
+  { n: "06", title: "Publishing", copy: "Every platform reads attention differently. Format follows distribution, not the other way around.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-06-publish.mp4" },
+  { n: "07", title: "Analytics", copy: "The work is measured, not just admired — what performed, why, and what it changes next time.", video: "https://oeavazgqwtikqiwkxcrr.supabase.co/storage/v1/object/public/Amlan_Editing/Inside_The_Edit/process-07-analytics.mp4" },
 ];
 
 export default function CreativeProcess() {

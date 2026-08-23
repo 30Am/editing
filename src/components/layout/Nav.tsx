@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { contactDetails } from "@/data/content";
 
 const LINKS = [
   { href: "/work", label: "Selected Work" },
@@ -86,13 +87,15 @@ export default function Nav() {
           </ul>
 
           <div className="flex items-center gap-6">
-            <Link
-              href="/contact"
+            <a
+              href={contactDetails.bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               data-cursor="link"
               className="hidden text-sm font-medium tracking-tight underline decoration-line underline-offset-4 transition-colors hover:text-indigo hover:decoration-indigo md:inline-block"
             >
               Let&rsquo;s talk
-            </Link>
+            </a>
             <button
               aria-label="Toggle menu"
               onClick={() => setOpen((v) => !v)}

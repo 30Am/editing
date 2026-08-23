@@ -39,6 +39,8 @@ export default function ContactPage() {
       <div className="mt-10 flex items-center gap-6 text-sm text-ink-soft">
         <a
           href={contactDetails.bookingUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           data-cursor="link"
           className="underline decoration-line underline-offset-4 transition-colors hover:text-indigo hover:decoration-indigo"
         >
@@ -48,6 +50,8 @@ export default function ContactPage() {
           <a
             key={s.label}
             href={s.url}
+            target="_blank"
+            rel="noopener noreferrer"
             data-cursor="link"
             className="underline decoration-line underline-offset-4 transition-colors hover:text-indigo hover:decoration-indigo"
           >
