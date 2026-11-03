@@ -121,7 +121,7 @@ function StepVisual({ src }: { src: string }) {
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
         />
       ) : null}
     </div>

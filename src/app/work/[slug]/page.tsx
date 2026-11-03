@@ -94,7 +94,7 @@ export default async function CaseStudyPage({
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
           />
         ) : (
           <div className="h-full w-full bg-gradient-to-br from-indigo/15 via-paper-dim to-paper-dim" />

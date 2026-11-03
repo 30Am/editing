@@ -36,7 +36,7 @@ export default function ProjectCard({
           observer.disconnect();
         }
       },
-      { rootMargin: "200px" }
+      { rootMargin: "600px" }
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -77,7 +77,7 @@ export default function ProjectCard({
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
           />
         ) : (
           <div

@@ -48,7 +48,7 @@ function MilestoneReel({ src }: { src?: string }) {
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           onError={() => setBroken(true)}
         />
       )}
