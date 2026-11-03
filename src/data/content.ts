@@ -95,6 +95,17 @@ export const projects: Project[] = [
     outcome: "Real, verifiable outcome — to be added.",
     video: "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/case-study-four.mp4",
   },
+  {
+    slug: "wispr-flow",
+    title: "Wispr Flow",
+    client: "Wispr Flow",
+    category: "Wispr Flow",
+    challenge: "One-sentence business problem — to be added.",
+    approach: "How storytelling, strategy, and filmmaking solved it — to be added.",
+    outcome: "Real, verifiable outcome — to be added.",
+    placeholder: true,
+    video: "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/wispr%20reel.mp4",
+  },
 ];
 
 export type Service = {

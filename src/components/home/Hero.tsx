@@ -31,6 +31,7 @@ const HERO_VIDEOS: HeroVideo[] = [
   { title: "BRX", src: "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/brx.mp4" },
   { title: "Diary of a CEO", src: "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/Diary%20Of%20A%20Ceo.mp4" },
   { title: "Dr. Anchal", src: "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/Dr%20Anchal.mp4" },
+  { title: "Wispr Flow", src: "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/wispr%20long.mp4" },
 ];
 
 const FRAGMENTS: Fragment[] = [
