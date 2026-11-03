@@ -8,6 +8,7 @@ import { useEffect } from "react";
 // the bytes are already local and playback starts instantly instead of
 // waiting on a fresh network request.
 const VIDEO_URLS = [
+  "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/flowli.mp4",
   "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/wispr%20long.mp4",
   "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/wispr%20reel.mp4",
   "https://pub-ffdc1cf7f2f64138beeffdc8a02bd0dd.r2.dev/brx.mp4",
