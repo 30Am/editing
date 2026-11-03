@@ -9,9 +9,9 @@ import Footer from "@/components/layout/Footer";
 import VideoPreloader from "@/components/layout/VideoPreloader";
 
 export const metadata: Metadata = {
-  title: "Amlan Tripathy — Video Editor for Creators & Brands",
+  title: "Amlan Tripathy - Video Editor for Creators & Brands",
   description:
-    "Amlan Tripathy is a video editor working with US creators, podcasters, and brands — combining the analytical thinking of a former management consultant with the storytelling instincts of a cinematic editor. Stories don't go viral. They're engineered.",
+    "Amlan Tripathy is a video editor working with US creators, podcasters, and brands - combining the analytical thinking of a former management consultant with the storytelling instincts of a cinematic editor. Stories don't go viral. They're engineered.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

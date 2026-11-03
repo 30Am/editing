@@ -9,7 +9,7 @@ export default function Metrics() {
   return (
     <section className="grain relative border-t border-line bg-ink py-28 text-paper md:py-40">
       <div className="container-edit">
-        <span className="eyebrow text-paper/50">06 — The Numbers</span>
+        <span className="eyebrow text-paper/50">06  -  The Numbers</span>
         <RevealText as="h2" splitBy="word" className="type-h2 mt-4 max-w-2xl">
           Results you can measure, not just admire.
         </RevealText>
@@ -22,7 +22,7 @@ export default function Metrics() {
 
         <p className="mt-8 max-w-xl text-sm text-paper/50">
           Numbers only appear here once they&rsquo;re verified and cleared for
-          publication — nothing on this page is estimated.
+          publication  -  nothing on this page is estimated.
         </p>
       </div>
     </section>

@@ -9,7 +9,7 @@ export default function Testimonials() {
   return (
     <section className="relative border-t border-line bg-paper py-28 md:py-40">
       <div className="container-edit">
-        <span className="eyebrow text-ink-soft">07 — Client Stories</span>
+        <span className="eyebrow text-ink-soft">07  -  Client Stories</span>
         <RevealText as="h2" splitBy="word" className="type-h2 mt-4 max-w-2xl">
           What it&rsquo;s actually like working with me.
         </RevealText>
@@ -39,7 +39,7 @@ function TestimonialCard({ testimonial: t, index: i }: { testimonial: Testimonia
     >
       <blockquote className="body-lg text-ink">&ldquo;{t.quote}&rdquo;</blockquote>
       <figcaption className="mt-6 text-sm text-ink-soft">
-        <span className="font-medium text-ink">{t.name}</span> — {t.role}
+        <span className="font-medium text-ink">{t.name}</span>  -  {t.role}
       </figcaption>
     </motion.figure>
   );
@@ -57,7 +57,7 @@ function EmptyState() {
       <p className="type-h2 max-w-md text-ink-soft">Client stories are on their way.</p>
       <p className="body-lg mt-3 max-w-md text-ink-soft">
         Real, attributed testimonials will appear here once clients have
-        approved them for publication — nothing here is invented.
+        approved them for publication  -  nothing here is invented.
       </p>
     </motion.div>
   );

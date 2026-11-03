@@ -3,13 +3,13 @@ import RevealText from "@/components/ui/RevealText";
 import { philosophyLines } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Editing Philosophy — Amlan Tripathy",
-  description: "Good editing isn't decoration—it's strategy made visible.",
+  title: "Editing Philosophy  -  Amlan Tripathy",
+  description: "Good editing isn't decoration - it's strategy made visible.",
 };
 
 const SUPPORT = [
-  "A consultant's instinct never left — every project starts with the question a client hasn't asked yet: what does this content need to prove, and to whom?",
-  "Craft is not the goal. It's the delivery mechanism for a decision that was made earlier — about audience, about timing, about what the story is actually for.",
+  "A consultant's instinct never left  -  every project starts with the question a client hasn't asked yet: what does this content need to prove, and to whom?",
+  "Craft is not the goal. It's the delivery mechanism for a decision that was made earlier  -  about audience, about timing, about what the story is actually for.",
   "Attention is earned one cut at a time. A frame that doesn't move the story forward is a frame that's costing you the next one.",
   "Speed without direction just produces more content. The work here is choosing what deserves the frame in the first place.",
 ];
@@ -48,7 +48,7 @@ export default function PhilosophyPage() {
             None of this matters without the discipline to cut what doesn&rsquo;t serve it.
           </RevealText>
           <p className="body-lg mt-6 max-w-xl text-paper/60">
-            That discipline — knowing what to leave out — is the difference
+            That discipline  -  knowing what to leave out  -  is the difference
             between content and a story. It&rsquo;s the same instinct that once
             built strategy decks, now pointed at a timeline.
           </p>

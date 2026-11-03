@@ -5,7 +5,7 @@ import { ArrowRight } from "@/components/ui/Icon";
 import { journalPosts } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Journal — Amlan Tripathy",
+  title: "Journal  -  Amlan Tripathy",
   description: "Notes on editing, storytelling, marketing, AI tools, and the creator economy.",
 };
 
@@ -19,7 +19,7 @@ export default function JournalPage() {
         </RevealText>
         <p className="body-lg mt-6 max-w-xl text-ink-soft">
           Thoughts on editing, storytelling, marketing, AI tools, and the
-          creator economy — written the way the work gets made: considered,
+          creator economy  -  written the way the work gets made: considered,
           not rushed.
         </p>
       </section>

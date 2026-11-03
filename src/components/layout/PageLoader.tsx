@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 /**
- * Intro loader styled like an NLE render/export bar — timecode, a
+ * Intro loader styled like an NLE render/export bar  -  timecode, a
  * percentage counting to 100, then a clip-path wipe reveals the site.
  * Shown once per browser session.
  */
@@ -56,7 +56,7 @@ export default function PageLoader() {
         >
           <div className="flex items-center justify-between font-mono text-[11px] uppercase tracking-[0.14em] text-paper/50">
             <span>REC · 00:00:0{Math.floor(pct / 34)}</span>
-            <span>Amlan Tripathy — Reel.mov</span>
+            <span>Amlan Tripathy  -  Reel.mov</span>
           </div>
 
           <div className="flex items-end justify-between">

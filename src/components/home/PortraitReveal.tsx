@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import RevealText from "@/components/ui/RevealText";
 
-// Retention curve — shaped like a Reels/Shorts audience-retention chart:
+// Retention curve  -  shaped like a Reels/Shorts audience-retention chart:
 const RETENTION_CURVE =
   "M0,10 C 30,12 45,24 60,28 C 80,34 95,32 110,36 C 130,42 140,52 155,50 C 170,48 185,54 200,58 C 215,62 225,60 240,63 C 255,66 265,70 280,68 C 290,67 295,70 300,72";
 const RETENTION_FILL = `${RETENTION_CURVE} L300,90 L0,90 Z`;
@@ -62,7 +62,7 @@ export default function PortraitReveal() {
     >
       <div className="container-edit flex w-full flex-col items-center gap-14">
         <div className="text-center">
-          <span className="eyebrow text-ink-soft">01 — Meet Your Editor</span>
+          <span className="eyebrow text-ink-soft">01  -  Meet Your Editor</span>
           <RevealText
             as="h2"
             splitBy="word"
@@ -81,7 +81,7 @@ export default function PortraitReveal() {
             </defs>
           </svg>
 
-          {/* Reel footage — sized to the source video's own 9:16 (1080×1920) aspect ratio. */}
+          {/* Reel footage  -  sized to the source video's own 9:16 (1080×1920) aspect ratio. */}
           <video
             ref={videoRef}
             className="absolute inset-0 h-full w-full object-cover"
@@ -94,12 +94,12 @@ export default function PortraitReveal() {
           />
         </div>
 
-        {/* Editing timeline the mosaic resolves into — now a retention
+        {/* Editing timeline the mosaic resolves into  -  now a retention
             graph, in the spirit of a Reels/Shorts audience-retention chart,
             instead of a raw audio waveform. */}
         <div ref={timelineRef} className="flex w-full max-w-sm flex-col gap-4">
           <div className="flex items-center justify-between font-mono text-xs uppercase tracking-[0.14em] text-ink-soft">
-            <span>V1 — Amlan_Reel</span>
+            <span>V1  -  Amlan_Reel</span>
             <span>00:42:18</span>
           </div>
           <div className="relative border-b border-ink/15 pb-2">
@@ -134,7 +134,7 @@ export default function PortraitReveal() {
 
         <p className="body-lg max-w-md text-center text-ink-soft">
           Every clip becomes a fragment. Every fragment becomes a video your
-          audience actually finishes — built one cut at a time.
+          audience actually finishes  -  built one cut at a time.
         </p>
       </div>
     </section>

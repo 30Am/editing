@@ -16,12 +16,12 @@ type Props = {
 
 /**
  * Masks text behind overflow-hidden lines and reveals it word-by-word as
- * it enters the viewport — typography becoming part of the animation
+ * it enters the viewport  -  typography becoming part of the animation
  * rather than a static fade-in.
  *
  * Uses a manual IntersectionObserver (rather than framer-motion's
  * whileInView) because it does not reliably fire in this project's
- * framer-motion version — verified via headless-browser inspection.
+ * framer-motion version  -  verified via headless-browser inspection.
  */
 export default function RevealText({
   children,

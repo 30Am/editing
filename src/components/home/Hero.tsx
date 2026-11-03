@@ -66,7 +66,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-[100svh] flex-col overflow-hidden bg-paper pt-[var(--nav-h)]">
 
-      {/* Floating fragments — settle into stillness once the sentence assembles */}
+      {/* Floating fragments  -  settle into stillness once the sentence assembles */}
       <div className="pointer-events-none absolute inset-0 -z-[5] hidden sm:block">
         {FRAGMENTS.map((f, i) => (
           <FragmentBlock key={i} f={f} sx={sx} sy={sy} />
@@ -84,7 +84,7 @@ export default function Hero() {
             Edits that keep people watching.
           </RevealText>
           <p className="body-lg mt-4 max-w-xl text-ink-soft">
-            I&rsquo;m Amlan — a video editor working with US creators, podcasters,
+            I&rsquo;m Amlan  -  a video editor working with US creators, podcasters,
             and brands to turn raw footage into content that holds attention
             and drives real business results.
           </p>
@@ -290,7 +290,7 @@ function CarouselCard({
       className="absolute inset-0"
     >
       <div className="relative h-full w-full overflow-hidden rounded-xl bg-ink" aria-hidden={depth !== 0}>
-        {/* Only the front card gets a src — nothing else loads or downloads. */}
+        {/* Only the front card gets a src  -  nothing else loads or downloads. */}
         {isFront && (
           <video
             ref={videoRef}

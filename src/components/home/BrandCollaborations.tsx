@@ -32,7 +32,7 @@ export default function BrandCollaborations() {
   return (
     <section className="relative border-t border-line bg-paper-dim py-28 md:py-40">
       <div className="container-edit">
-        <span className="eyebrow text-ink-soft">05 — Who I Work With</span>
+        <span className="eyebrow text-ink-soft">05  -  Who I Work With</span>
         <RevealText as="h2" splitBy="word" className="type-h2 mt-4 max-w-2xl">
           Creators and brands who need video that performs.
         </RevealText>

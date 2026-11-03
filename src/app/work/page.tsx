@@ -4,7 +4,7 @@ import WorkGrid from "@/components/work/WorkGrid";
 import { projects } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Selected Work — Amlan Tripathy",
+  title: "Selected Work  -  Amlan Tripathy",
   description: "A selection of edits, campaigns, and content systems by Amlan Tripathy.",
 };
 

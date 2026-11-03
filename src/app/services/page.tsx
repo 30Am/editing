@@ -5,8 +5,8 @@ import ServicesWorkflow from "@/components/services/ServicesWorkflow";
 import { services } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Editing Services — Amlan Tripathy",
-  description: "Video editing for YouTube, Shorts, podcasts, and brand films — built for US creators and businesses.",
+  title: "Editing Services  -  Amlan Tripathy",
+  description: "Video editing for YouTube, Shorts, podcasts, and brand films  -  built for US creators and businesses.",
 };
 
 export default function ServicesPage() {
@@ -18,7 +18,7 @@ export default function ServicesPage() {
           Strategy first. Editing second.
         </RevealText>
         <p className="body-lg mt-6 max-w-xl text-ink-soft">
-          Seven ways to work together — from a single video to an ongoing
+          Seven ways to work together  -  from a single video to an ongoing
           editing partnership. Select one to expand it.
         </p>
       </section>

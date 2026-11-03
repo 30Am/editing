@@ -101,7 +101,7 @@ export default function CareerTimeline() {
       className="relative flex min-h-[100svh] flex-col justify-center overflow-hidden border-t border-line bg-ink py-14 text-paper"
     >
       <div className="container-edit">
-        <span className="eyebrow text-paper/50">02 — Who I&rsquo;ve Edited For</span>
+        <span className="eyebrow text-paper/50">02  -  Who I&rsquo;ve Edited For</span>
         <h2 className="type-h2 mt-4 max-w-2xl">
           A few of the creators and brands behind the cuts.
         </h2>
@@ -110,7 +110,7 @@ export default function CareerTimeline() {
       <div className="container-edit mt-10">
         {/* NLE-style ruler track label */}
         <div className="mb-4 md:mb-2 flex justify-between font-mono text-xs uppercase tracking-[0.14em] text-paper/40">
-          <span>Track — Clients</span>
+          <span>Track  -  Clients</span>
           <span>
             {String(Math.max(0, activeIndex + 1)).padStart(2, "0")} /{" "}
             {String(milestones.length).padStart(2, "0")}

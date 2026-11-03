@@ -9,7 +9,7 @@ export default function FeaturedProjects() {
       <div className="container-edit">
         <div className="mb-16 flex flex-col items-start gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <span className="eyebrow text-ink-soft">03 — Selected Edits</span>
+            <span className="eyebrow text-ink-soft">03  -  Selected Edits</span>
             <RevealText as="h2" splitBy="word" className="type-h2 mt-4 max-w-xl">
               A few edits built to be watched, not skipped.
             </RevealText>

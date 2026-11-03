@@ -55,7 +55,7 @@ export default function VideoPreloader() {
         try {
           await fetch(url, { cache: "force-cache" });
         } catch {
-          // Best-effort — a failed prefetch just falls back to the
+          // Best-effort  -  a failed prefetch just falls back to the
           // normal on-demand load when the section scrolls into view.
         }
       }

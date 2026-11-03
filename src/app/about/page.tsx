@@ -4,9 +4,9 @@ import MagneticButton from "@/components/ui/MagneticButton";
 import { milestones, roles } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "About — Amlan Tripathy",
+  title: "About  -  Amlan Tripathy",
   description:
-    "Amlan Tripathy is a video editor working with US creators, podcasters, and brands — combining the analytical thinking of a former management consultant with the storytelling instincts of a cinematic editor.",
+    "Amlan Tripathy is a video editor working with US creators, podcasters, and brands  -  combining the analytical thinking of a former management consultant with the storytelling instincts of a cinematic editor.",
 };
 
 export default function AboutPage() {
@@ -30,13 +30,13 @@ export default function AboutPage() {
           <h2 className="type-h2">The unusual part of the path</h2>
           <p className="body-lg mt-4 text-ink-soft">
             Most editors arrive through software. Amlan arrived through
-            strategy — starting as a management consultant at McKinsey &amp;
+            strategy  -  starting as a management consultant at McKinsey &amp;
             Company, where the discipline was structured problem-solving, not
             storytelling.
           </p>
           <p className="body-lg mt-4 text-ink-soft">
             That background didn&rsquo;t get left behind when he moved into
-            editing — it became the lens. Every timeline still starts as a
+            editing  -  it became the lens. Every timeline still starts as a
             business problem before it becomes a cut list.
           </p>
         </div>
@@ -44,13 +44,13 @@ export default function AboutPage() {
           <h2 className="type-h2">Why it matters for your video</h2>
           <p className="body-lg mt-4 text-ink-soft">
             A typical editor can tell you if a cut looks good. Amlan can tell
-            you if it will work — and why — because the thinking behind it
+            you if it will work  -  and why  -  because the thinking behind it
             starts the same way a growth strategy would: audience, objective,
             and what success actually needs to look like.
           </p>
           <p className="body-lg mt-4 text-ink-soft">
             He&rsquo;s currently taking on a small number of new editing clients
-            — creators and brands who publish consistently and need a
+             -  creators and brands who publish consistently and need a
             dependable editor, not a one-off gig.
           </p>
         </div>

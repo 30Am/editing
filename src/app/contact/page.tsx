@@ -4,7 +4,7 @@ import MagneticButton from "@/components/ui/MagneticButton";
 import { contactDetails } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Contact — Amlan Tripathy",
+  title: "Contact  -  Amlan Tripathy",
   description: "Let's talk about your next video.",
 };
 
@@ -22,7 +22,7 @@ export default function ContactPage() {
       </RevealText>
 
       <p className="body-lg mt-6 max-w-xl text-ink-soft">
-        Tell me about your channel, your podcast, or your brand — I&rsquo;ll get
+        Tell me about your channel, your podcast, or your brand  -  I&rsquo;ll get
         back to you within a day.
       </p>
 
